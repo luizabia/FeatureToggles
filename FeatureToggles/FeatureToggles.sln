@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureTogglesExemples", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureTogglesExemples.Test", "FeatureTogglesExemples.Test\FeatureTogglesExemples.Test.csproj", "{4F76C7B4-4CCD-4323-A016-521EBDDE57AC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{75E89263-FB80-4114-B8E2-5F9D797CFCB7}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDataBase.sql = CreateDataBase.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
